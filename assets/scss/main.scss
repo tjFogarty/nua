@@ -1,0 +1,61 @@
+// *************************************
+//
+//   Style manifest file
+//   -> Author: Emagine Media
+//
+// *************************************
+
+// -------------------------------------
+//   Settings
+// -------------------------------------
+
+@import "settings.colours";
+@import "settings.fonts";
+@import "settings.vars";
+
+// -------------------------------------
+//   Trumps - vendor vars, or use of !important
+// -------------------------------------
+
+@import "trumps.overrides";
+
+// -------------------------------------
+//   Vendor
+// -------------------------------------
+
+// -------------------------------------
+//   Tools - Mixins, functions...
+// -------------------------------------
+
+@import "tools.helpers";
+
+// -------------------------------------
+//   Generic - Reset
+// -------------------------------------
+
+@import "generic.normalize";
+@import "generic.box-sizing";
+
+// -------------------------------------
+//   Objects - Design patters, no styles
+// -------------------------------------
+// 
+@import "objects.lists";
+
+// -------------------------------------
+//   Base - Base styles
+// -------------------------------------
+
+@import "base.type-selectors";
+
+// -------------------------------------
+//   Components - UI Styles
+// -------------------------------------
+
+@import "components.buttons";
+@import "components.navigation";
+@import "components.header";
+@import "components.logo";
+@import "components.footer";
+@import "components.article";
+@import "components.pagination";
